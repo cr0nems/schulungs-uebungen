@@ -10,7 +10,7 @@
 
 6. Erstelle nun eine kleine Tabelle in der Datenbank
    
-   Beim erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
+   Beim Erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
    Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop
 
 8. Gehe nun in den Reiter für StatefulSets im Rancher Desktop und stelle im mariadb StatefulSet die Replikas auf 0. Der Pod sollte nun entfernt werden.
