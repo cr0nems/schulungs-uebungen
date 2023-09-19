@@ -9,9 +9,11 @@
 5. Sieh dir nun in Ruhe an, was alles erstellt wurde.
 
 6. Erstelle nun eine kleine Tabelle in der Datenbank
-    6. Beim erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst und wie du an das Passwort kommst.
+   
+   Beim erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
+   Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop
 
-7. Gehe nun in den Reiter für StatefulSets im Rancher Desktop und stelle im mariadb StatefulSet die Replikas auf 0. Der Pod sollte nun entfernt werden.
+8. Gehe nun in den Reiter für StatefulSets im Rancher Desktop und stelle im mariadb StatefulSet die Replikas auf 0. Der Pod sollte nun entfernt werden.
 
-8. Stelle die Replikas nun wieder auf 1 und warte bis der Pod wieder auf Running. Was fällt dir auf? Sind deine Daten noch da?
+9. Stelle die Replikas nun wieder auf 1 und warte bis der Pod wieder auf Running. Was fällt dir auf? Sind deine Daten noch da?
 
