@@ -2,6 +2,7 @@
 
 ## Setup
 
+0. Aktiviere die WSL indem du in einer CMD.exe, welche als dein lokaler Administrator Account ausgeführt werden muss, ```wsl --install``` eingibst
 
 1. Downloade die für dich passende Version von Rancher Desktop unter [Rancher Github](https://github.com/rancher-sandbox/rancher-desktop/releases)
    
@@ -9,11 +10,9 @@
 
 2. Führe den Installer aus
 
-3. Wähle *Install for all users of this machine*, wenn du lokale Administrationsrechte besitzt.
+3. Wähle *Install for all users of this machine*
 
-   Wenn du keine Administrationsrechte besitzt wähle *Install just for you*
-
-5. Drücke Next. Je nach Wahl in Punkt 3 musst du dich nun mit dem berechtigten User anmelden.
+5. Drücke Next. Du musst dich nun mit dem berechtigten User anmelden.
 
 6. Drücke Finish
 
