@@ -2,7 +2,7 @@
 
 2. Gib nun folgenden Befehl ein ```kubectl config current-context```. Du solltest nun die Antwort *rancher-desktop* sehen
 
-3. Erstellen wir ein kleines Deployment ```kubectl create deployment uebung-02 -n uebungen --image=nginx --port=80```
+3. Erstellen wir ein kleines Deployment ```kubectl create deployment uebung-02 --image=nginx --port=80```
 
 4. Kuck dir nun im Rancher Desktop Cluster Dashboard unter Workloads dein Deployment an
 
