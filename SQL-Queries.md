@@ -2,7 +2,7 @@ Erstellung der Tabelle Personal:
 
 ```create table Personal ( PersonalID int, Name varchar(255), VorName varchar(255), Addresse varchar(255) );```
 
-Füge eine Beispiel Person:
+Füge eine Beispiel Person der Tabelle hinzu:
 
 ```insert into Personal (PersonalID, Name, VorName, Addresse) values (1, 'Mueller', 'Melanie', 'Am Bauhof 9');```
 
