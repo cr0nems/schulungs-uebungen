@@ -4,4 +4,4 @@
 
 3. Lass dir die vorerstellten Namespaces anzeigen mit ```kubectl get ns```
 
-4. Erstelle dir nun einen eigenen Namespace ```kubectl create ns uebungen```
+4. Erstelle dir nun einen eigenen Namespace ```kubectl create ns uebung-01```

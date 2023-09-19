@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: uebung-04
+spec:
+  selector:
+    matchLabels:
+      name: nginx-daemonset
+  template:
+    metadata:
+      labels:
+        name: nginx-daemonset
+    spec:
+      containers:
+      - name: nginx-daemonset
+        image: nginx
+        ports:
+        - containerPort: 80
+          name: "web"

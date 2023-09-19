@@ -4,7 +4,8 @@
 
 
 1. Downloade die für dich passende Version von Rancher Desktop unter [Rancher Github](https://github.com/rancher-sandbox/rancher-desktop/releases)
-    1. Die Datei sollte unter Windows Rancher.Desktop.Setup.X.XX.X.msi heißen
+   
+   Die Datei sollte unter Windows Rancher.Desktop.Setup.X.XX.X.msi heißen
 
 2. Führe den Installer aus
 
@@ -31,3 +32,4 @@
 13. Drücke mit der linken Maustaste auf *Open cluster Dashboard*
 
 14. Nun siehst du das Dashboard deines eigenen kleinen Kubernetes Cluster. Klick dich ein bisschen rum und lerne schonmal paar Sachen kennen.
+
