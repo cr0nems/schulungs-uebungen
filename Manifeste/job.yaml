@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: pi
+  name: uebung-05
 spec:
   completions: 3
   template:
