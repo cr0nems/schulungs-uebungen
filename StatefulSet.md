@@ -4,7 +4,7 @@
 
 3. Das StatefulSet erstellen wir nun mittels Helm Chart
 
-4. ````helm install uebung-03 oci://registry-1.docker.io/bitnamicharts/mariadb``
+4. ```helm install uebung-03 oci://registry-1.docker.io/bitnamicharts/mariadb```
 
 5. Sieh dir nun in Ruhe an, was alles erstellt wurde.
 
