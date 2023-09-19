@@ -30,6 +30,3 @@
 12. Drücke mit der linken Maustaste auf *Open cluster Dashboard*
 
 13. Nun siehst du das Dashboard deines eigenen kleinen Kubernetes Cluster. Klick dich ein bisschen rum und lerne schonmal paar Sachen kennen.
-
-
-
