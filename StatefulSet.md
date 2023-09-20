@@ -11,7 +11,8 @@
 6. Erstelle nun eine kleine Tabelle in der Datenbank
    
    6.1 Beim Erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
-       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop
+       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop.
+   
        Beispiel SQL Statements, welche man innerhalb des Clients verwenden kann um Tabellen zu erzeugen etc. findest du unter SQL-Queries.md 
    
 
