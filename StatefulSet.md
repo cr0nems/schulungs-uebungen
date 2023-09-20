@@ -2,7 +2,7 @@
 
 2. Gib nun folgenden Befehl ein ```kubectl config current-context```. Du solltest nun die Antwort *rancher-desktop* sehen
 
-3. Das StatefulSet erstellen wir nun mittels Helm Chart
+3. Das StatefulSet erstellen wir nun mittels Helm Chart. Helm ist ein nützliches Tool welches dir ermöglicht Applikation komplett und anpassbar zu deployen. Später mehr dazu.
 
 4. ```helm install uebung-03 oci://registry-1.docker.io/bitnamicharts/mariadb```
 
