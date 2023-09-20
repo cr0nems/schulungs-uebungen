@@ -11,8 +11,7 @@
 6. Erstelle nun eine kleine Tabelle in der Datenbank
    
    6.1 Beim Erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
-       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop.
-       Beispiel SQL Statements, welche man innerhalb des Clients verwenden kann um Tabellen zu erzeugen etc. findest du unter SQL-Queries.md 
+       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop. Beispiel SQL Statements, welche man innerhalb des Clients verwenden kann um Tabellen zu erzeugen etc. findest du unter SQL-Queries.md 
    
 
 8. Gehe nun in den Reiter für StatefulSets im Rancher Desktop und stelle im mariadb StatefulSet die Replikas auf 0. Der Pod sollte nun entfernt werden.
