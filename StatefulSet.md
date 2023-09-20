@@ -19,3 +19,9 @@
 
 9. Stelle die Replikas nun wieder auf 1 und warte bis der Pod wieder auf Running. Was fällt dir auf? Sind deine Daten noch da?
 
+> Best Practice:
+>
+> Das StatefulSet ähnelt sich dem Deployment bei der Betrachtung des Funktionsumfang. Wenn jedoch eine permanente, statische Netzwerkidentität sowie eine stabile und persistente Storage Anbindung, welche auch Skalierung „überlebt“, erforderlich sind, wird ein StatefulSet empfohlen. 
+> 
+> Bei sehr großen Clustern mit vielen ConfigMaps mit statischen Werten, können Immutable ConfigMaps (einmal definiert, unveränderlich danach) die Performance (API-Server Entlastung) und Sicherheit (Human Error) erhöhen. Wird jedoch die ConfigMap durch Löschen und Neuerstellen „bearbeitet“ müssen die konsumierenden Pods neuerstellt werden, da diese auf alte Mountpoints verweisen.
+ 
