@@ -18,6 +18,8 @@
 
 9. Stelle die Replikas nun wieder auf 1 und warte bis der Pod wieder auf Running. Was fällt dir auf? Sind deine Daten noch da?
 
+10. Stelle nun die Replikas auf 2 und führe Schritt 6.1 mehrfach nacheinander durch. Was fällt dir auf?
+
 > Best Practice:
 >
 > Das StatefulSet ähnelt sich dem Deployment bei der Betrachtung des Funktionsumfang. Wenn jedoch eine permanente, statische Netzwerkidentität sowie eine stabile und persistente Storage Anbindung, welche auch Skalierung „überlebt“, erforderlich sind, wird ein StatefulSet empfohlen. 
