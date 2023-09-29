@@ -1,4 +1,4 @@
-#Rancher Installation
+# Rancher Installation
 
 1. Setze dein Kubernetes Cluster zurück. Dies kannst du über das *Troubleshooting* im Rancher Desktop Startfenster tun.
 
@@ -16,7 +16,7 @@
 
 8. Folge nun der kleinen Anleitung auf der Startseite des Ranchers um dein Bootstrap Passwort zu erhalten und um dein neues Passwort zu setzten.
 
-#Benutzer Erstellung
+# Benutzer Erstellung
 
 1. Gehe über den Reiter *Users & Authentication* im ausklappbaren Menü links 
 
