@@ -49,6 +49,14 @@
               </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">StatefulSet</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ubung">Übung</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#best-practice">Best Practice:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sql-queries">SQL-Queries</a>
+    </li>
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -90,7 +98,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <ol>
+                <h1 id="statefulsets">StatefulSets</h1>
+<h2 id="ubung">Übung</h2>
+<ol>
 <li>
 <p>Öffne die CMD.exe</p>
 </li>
@@ -111,7 +121,7 @@
 </li>
 </ol>
 <p>6.1 Beim Erstellen mittels Kommando hast du mitgeteilt bekommen, wie du den Test-Client installieren kannst.
-       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop. Beispiel SQL Statements, welche man innerhalb des Clients verwenden kann um Tabellen zu erzeugen etc. findest du unter SQL-Queries.md </p>
+       Das Root-Passwort ist als Secret unter Storage zu finden in Rancher Desktop. Beispiel SQL Statements, welche man innerhalb des Clients verwenden kann um Tabellen zu erzeugen etc. findest du unter SQL-Queries</p>
 <ol>
 <li>
 <p>Gehe nun in den Reiter für StatefulSets im Rancher Desktop und stelle im mariadb StatefulSet die Replikas auf 0. Der Pod sollte nun entfernt werden.</p>
@@ -123,11 +133,18 @@
 <p>Stelle nun die Replikas auf 2 und führe Schritt 6.1 mehrfach nacheinander durch. Was fällt dir auf?</p>
 </li>
 </ol>
+<h2 id="best-practice">Best Practice:</h2>
 <blockquote>
-<p>Best Practice:</p>
 <p>Das StatefulSet ähnelt sich dem Deployment bei der Betrachtung des Funktionsumfang. Wenn jedoch eine permanente, statische Netzwerkidentität sowie eine stabile und persistente Storage Anbindung, welche auch Skalierung „überlebt“, erforderlich sind, wird ein StatefulSet empfohlen. </p>
 <p>Bei sehr großen Clustern mit vielen ConfigMaps mit statischen Werten, können Immutable ConfigMaps (einmal definiert, unveränderlich danach) die Performance (API-Server Entlastung) und Sicherheit (Human Error) erhöhen. Wird jedoch die ConfigMap durch Löschen und Neuerstellen „bearbeitet“ müssen die konsumierenden Pods neuerstellt werden, da diese auf alte Mountpoints verweisen.</p>
 </blockquote>
+<h2 id="sql-queries">SQL-Queries</h2>
+<p>Erstellung der Tabelle Personal:</p>
+<p><code>create table Personal ( PersonalID int, Name varchar(255), VorName varchar(255), Addresse varchar(255) );</code></p>
+<p>Füge eine Beispiel Person der Tabelle hinzu:</p>
+<p><code>insert into Personal (PersonalID, Name, VorName, Addresse) values (1, 'Mueller', 'Melanie', 'Am Bauhof 9');</code></p>
+<p>Zeige alle Zeilen von Personal an:</p>
+<p><code>select * from Personal;</code></p>
               
             </div>
           </div><footer>

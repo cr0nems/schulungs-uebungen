@@ -53,6 +53,12 @@
               </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">DaemonSet</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ubung">Übung</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#best-practice">Best Practice:</a>
+    </li>
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -90,7 +96,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <ol>
+                <h1 id="daemonset">Daemonset</h1>
+<h2 id="ubung">Übung</h2>
+<ol>
 <li>
 <p>Öffne die CMD.exe</p>
 </li>
@@ -104,8 +112,8 @@
 <p>Erstelle anhand dieses Manifestes ein DaemonSet <code>kubectl apply -f Manifeste/daemonset.yaml</code></p>
 </li>
 </ol>
+<h2 id="best-practice">Best Practice:</h2>
 <blockquote>
-<p>Best Practice:</p>
 <p>DaemonSets verhalten sich wie schon vom Namen erahnbar wie Daemons. Ihr bester Anwendungsfall demnach ist für Anwendungen, welche keinen Input eines Users benötigen und im Hintergrund laufen können. Beispielsweise Log Collecting Daemons, Node Monitoring Daemons sowie Cluster Storage Daemons.</p>
 </blockquote>
               
